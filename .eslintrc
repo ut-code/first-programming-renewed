@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "extends": "airbnb-typescript-prettier",
+  "rules": {
+    // TypeScript を使う場合不必要
+    "import/prefer-default-export": "off",
+    "react/destructuring-assignment": "off",
+    "react/require-default-props": "off",
+    // React 17 以降不必要
+    "react/react-in-jsx-scope": "off"
+  }
+}
